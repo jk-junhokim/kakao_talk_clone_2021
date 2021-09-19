@@ -1,0 +1,44 @@
+.more-screen .icon-row{
+  margin-top: 40px;
+}
+
+.more-suggestions{
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions_title{
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.more-suggestions_icons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.more-suggestions_icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.more-suggestions_icon-image{
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.more-suggestions_icon-image i{
+  font-size: 32px;
+  color: white;
+}

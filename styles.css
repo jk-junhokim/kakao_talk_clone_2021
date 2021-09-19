@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* screens */
+@import "css/set-variables/reset.css";
+@import "css/set-variables/variables.css";
+
+
+/* components */
+@import "css/components/status-bar.css";
+@import "css/components/nav-bar.css";
+@import "css/components/screen-header.css";
+@import "css/components/user-component.css";
+@import "css/components/badge.css";
+@import "css/components/icon-row.css";
+@import "css/components/alt-screen-header.css";
+@import "css/components/no-mobile.css";
+
+
+/* login form */
+@import "css/login-form/welcome-header.css";
+@import "css/login-form/login-form.css";
+
+
+/* friends-page */
+@import "css/friends-page/friends.css";
+
+
+/* find-page */
+@import "css/find-page/find.css";
+@import "css/find-page/cog-notification.css";
+
+
+/* more-page */
+@import "css/more-page/alert-icon.css";
+@import "css/more-page/more.css";
+
+
+/* settings-page */
+@import "css/settings-page/settings.css";
+
+
+/* chat-page */
+@import "css/chat-page/chat-page.css";
+
+
+/* main */
+body{
+  color: #2e363e;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
+}
+
